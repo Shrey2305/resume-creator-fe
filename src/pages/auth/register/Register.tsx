@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { registerUser } from '../../../features/auth/authService';
 
 type FormValues = {
   name: string;
@@ -20,10 +21,22 @@ export default function Register() {
 
   const [showPassword, setShowPassword] = useState(false);
   const [tempShowPassword, setTempShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
+const [errorMsg, setErrorMsg] = useState('');
 
-  const onSubmit = (data: FormValues) => {
-    console.log('Registration data:', data);
-  };
+
+const onSubmit = async (data: FormValues) => {
+    setLoading(true);
+  setErrorMsg('');
+  try {
+    const response = await registerUser(data);
+    console.log('Registration successful:', response);
+  } catch (error: any) {
+    console.error('Registration error:', error.response?.data || error.message);
+  }finally {
+    setLoading(false);
+  }
+};
 
   const handleControlKeyPress = () => {
     setTempShowPassword(true);
@@ -52,6 +65,10 @@ export default function Register() {
   const passwordVisible = showPassword || tempShowPassword;
 
   return (
+<>
+    {errorMsg && <p className="text-red-600 text-sm">{errorMsg}</p>}
+{loading && <p className="text-gray-600 text-sm">Registering...</p>}
+
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white">
       {/* Content */}
       <div className="relative z-10 w-full max-w-lg px-14">
@@ -201,5 +218,7 @@ export default function Register() {
         </div>
       </div>
     </div>
+</>
+
   );
 }
