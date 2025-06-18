@@ -80,24 +80,24 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
 
   return (
 
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black">
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white">
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-lg p-14">
         <div className="mb-8">
           <div className="flex items-center mb-6">
-            <div className="w-8 h-8 bg-white text-black rounded flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-8 h-8 bg-black text-white rounded flex items-center justify-center font-bold text-sm mr-3">
               Rx
             </div>
-            <span className="text-white font-semibold text-lg">Resume</span>
+            <span className="text-black font-semibold text-lg">Resume</span>
           </div>
 
-          <h1 className="text-white text-3xl font-light mb-2">
+          <h1 className="text-black text-3xl font-light mb-2">
             Sign in to your account
           </h1>
-          <p className="text-gray-300 text-sm">
+          <p className="text-gray-600 text-sm">
             Don't have an account?{" "}
-              <button className="text-white hover:underline transition-all duration-200">
+              <button className="text-black hover:underline transition-all duration-200">
                 Create one now →
               </button>
           </p>
@@ -107,7 +107,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
           <div className="space-y-2">
             <label
               htmlFor="email"
-              className="text-white text-sm font-medium leading-none"
+              className="text-black text-sm font-medium leading-none"
             >
               Email
             </label>
@@ -117,12 +117,12 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
               placeholder="john.doe@example.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex h-10 w-full rounded-md border border-gray-600 bg-transparent px-3 py-2 text-base text-white placeholder:text-gray-400 focus:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black disabled:cursor-not-allowed disabled:opacity-50"
+              className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-base text-black placeholder:text-gray-500 focus:border-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-white disabled:cursor-not-allowed disabled:opacity-50"
             />
             {errors.email && (
-              <p className="text-red-400 text-xs">{errors.email}</p>
+              <p className="text-red-500 text-xs">{errors.email}</p>
             )}
-            <p className="text-gray-400 text-xs">
+            <p className="text-gray-500 text-xs">
               You can also enter your username.
             </p>
           </div>
@@ -130,7 +130,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
           <div className="space-y-2">
             <label
               htmlFor="password"
-              className="text-white text-sm font-medium leading-none"
+              className="text-black text-sm font-medium leading-none"
             >
               Password
             </label>
@@ -140,12 +140,12 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
                 type={passwordVisible ? "text" : "password"}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="flex h-10 w-full rounded-md border border-gray-600 bg-transparent px-3 py-2 text-base text-white placeholder:text-gray-400 focus:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black disabled:cursor-not-allowed disabled:opacity-50 pr-10"
+                className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-base text-black placeholder:text-gray-500 focus:border-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-white disabled:cursor-not-allowed disabled:opacity-50 pr-10"
               />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white transition-colors duration-200"
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-black transition-colors duration-200"
               >
                 {passwordVisible ? (
                   <svg
@@ -185,13 +185,13 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
               </button>
             </div>
             {errors.password && (
-              <p className="text-red-400 text-xs">{errors.password}</p>
+              <p className="text-red-500 text-xs">{errors.password}</p>
             )}
-            <p className="text-gray-400 text-xs">
+            <p className="text-gray-500 text-xs">
               Hold Ctrl to display your password temporarily.
             </p>
             {tempShowPassword && (
-              <p className="text-green-400 text-xs animate-pulse">
+              <p className="text-green-600 text-xs animate-pulse">
                 Password visible for 2 seconds...
               </p>
             )}
@@ -202,14 +202,14 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
               type="submit"
               disabled={loading}
               onClick={handleSubmit}
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black disabled:pointer-events-none disabled:opacity-50 bg-white text-black hover:bg-gray-200 h-10 px-8 py-2"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-gray-800 h-10 px-8 py-2"
             >
               {loading ? "Signing in..." : "Sign in"}
             </button>
 
             <button
               type="button"
-              className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+              className="text-gray-600 hover:text-black transition-colors duration-200 text-sm"
             >
               Forgot Password?
             </button>
