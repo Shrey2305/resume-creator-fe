@@ -1,11 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Login from './auth/login/Login';
+
+import Register from './pages/auth/register/Register';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
   return (
-    <Login onLogin={() => {}} />
+    <>
+     <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </Router>
+    </>
   );
 }
 
