@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 interface LoginProps {
   onLogin: (email: string, password: string) => void;
@@ -97,9 +98,11 @@ const Login: React.FC<LoginProps> = ({ onLogin, loading = false }) => {
           </h1>
           <p className="text-gray-600 text-sm">
             Don't have an account?{" "}
+            <Link to="/register">
               <button className="text-black hover:underline transition-all duration-200">
                 Create one now →
               </button>
+            </Link>
           </p>
         </div>
 
