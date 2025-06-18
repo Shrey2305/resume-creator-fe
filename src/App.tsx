@@ -1,4 +1,4 @@
-import './App.css';
+
 import Register from './pages/auth/register/Register';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
