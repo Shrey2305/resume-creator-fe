@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Resume_Creator.Controllers.ResumeController",
+    "Method": "Login",
+    "RelativePath": "api/Resume/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Resume_Creator.Models.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume_Creator.Controllers.ResumeController",
+    "Method": "Register",
+    "RelativePath": "api/Resume/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Resume_Creator.Models.UserRegister",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
