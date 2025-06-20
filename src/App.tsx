@@ -10,9 +10,9 @@ import SettingsPage from './pages/dashboard/settings/Settings';
 
 import ProtectedRoute from './utils/ProtectedRoute';
 import DashboardLayout from './pages/dashboard/Dashboard';
-import ModernResumeTemplate from './components/templates/ModernTemplate';
 import sample from "./data/sampleResume.json"
-import TwoColumnResumeTemplate from './components/templates/ClassicResumeTemplate';
+import ModernResumeTemplate from './Components/templates/ModernTemplate';
+import TwoColumnResumeTemplate from './Components/templates/ClassicResumeTemplate';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
 
          <Route path="/preview/modern" element={<ModernResumeTemplate data={sample} />} />
          <Route path="/preview/classic" element={<TwoColumnResumeTemplate data={sample} />} />
+         <Route path="/addInfo" element={<Addinfo />} />
 
         {/* Protected Dashboard Routes */}
         <Route

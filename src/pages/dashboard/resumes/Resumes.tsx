@@ -73,7 +73,7 @@ const ResumeCardComponent = ({
             <h3 className="text-lg font-semibold">{resume.title}</h3>
             <p className="text-sm text-gray-500">{resume.slug}</p>
           </div>
-          <button className="mt-4 text-sm text-blue-600 hover:underline">Open Resume</button>
+          {/* <button className="mt-4 text-sm text-blue-600 hover:underline">Open Resume</button> */}
         </div>
       </div>
     ) : (
