@@ -1,4 +1,5 @@
 
+import ResumeTitle from './Components/ResumeTitle';
 import Login from './pages/auth/login/Login';
 import Register from './pages/auth/register/Register';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -18,3 +19,5 @@ function App() {
 }
 
 export default App;
+
+
