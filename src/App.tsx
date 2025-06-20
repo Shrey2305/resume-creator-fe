@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-import ResumeTitle from './Components/ResumeTitle';
 import Login from './pages/auth/login/Login';
 import Register from './pages/auth/register/Register';
 
@@ -10,6 +9,9 @@ import SettingsPage from './pages/dashboard/settings/Settings';
 
 import ProtectedRoute from './utils/ProtectedRoute';
 import DashboardLayout from './pages/dashboard/Dashboard';
+import ModernResumeTemplate from './components/templates/ModernTemplate';
+import sample from "./data/sampleResume.json"
+import TwoColumnResumeTemplate from './components/templates/ClassicResumeTemplate';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         {/* Public Routes */}
         <Route path="/login" element={<Login onLogin={() =>{}} />} />
         <Route path="/register" element={<Register />} />
+
+         <Route path="/preview/modern" element={<ModernResumeTemplate data={sample} />} />
+         <Route path="/preview/classic" element={<TwoColumnResumeTemplate data={sample} />} />
 
         {/* Protected Dashboard Routes */}
         <Route
