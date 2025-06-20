@@ -1,34 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\",
+  "WorkspaceRootPath": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\repos\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreator\\resume-creator-fe\\resumecreatorapi\\repos\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:repos\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreator\\resume-creator-fe\\resumecreatorapi\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreator\\resume-creator-fe\\resumecreatorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\interface\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:interface\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreator\\resume-creator-fe\\resumecreatorapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreatorbe\\resumecreatorapi\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|e:\\resume_build\\resumecreator\\resume-creator-fe\\resumecreatorapi\\interface\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09D817-2322-44BF-926E-C073CC1F16EA}|ResumeCreatorAPI.csproj|solutionrelative:interface\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,54 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "data.json",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\data.json",
+              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\data.json",
               "RelativeDocumentMoniker": "data.json",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\data.json",
+              "ToolTip": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\data.json",
               "RelativeToolTip": "data.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-19T05:14:29.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Program.cs",
+              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Program.cs",
+              "ToolTip": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T12:11:36.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Model\\Registration.cs",
-              "RelativeDocumentMoniker": "Model\\Registration.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Model\\Registration.cs",
-              "RelativeToolTip": "Model\\Registration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:36:08.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ILogin.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Interface\\ILogin.cs",
+              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Interface\\ILogin.cs",
               "RelativeDocumentMoniker": "Interface\\ILogin.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Interface\\ILogin.cs",
+              "ToolTip": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Interface\\ILogin.cs",
               "RelativeToolTip": "Interface\\ILogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,36 +73,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginService.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Repos\\LoginService.cs",
+              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Repos\\LoginService.cs",
               "RelativeDocumentMoniker": "Repos\\LoginService.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Repos\\LoginService.cs",
+              "ToolTip": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Repos\\LoginService.cs",
               "RelativeToolTip": "Repos\\LoginService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAlwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T10:32:34.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Model\\Login.cs",
-              "RelativeDocumentMoniker": "Model\\Login.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Model\\Login.cs",
-              "RelativeToolTip": "Model\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T09:37:07.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAhwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
