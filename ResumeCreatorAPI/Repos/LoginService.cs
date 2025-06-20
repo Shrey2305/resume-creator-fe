@@ -43,8 +43,6 @@ namespace ResumeCreatorAPI.Repos
         }
 
 
-
-
         public async Task<Registration?> AddUser(string name, string username, string email, string password)
         {
             List<Registration> users = new();
@@ -56,6 +54,7 @@ namespace ResumeCreatorAPI.Repos
             }
 
             var exists = users.Any(u =>
+
                 u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase) ||
                 u.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
 

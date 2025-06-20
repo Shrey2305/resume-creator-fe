@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResumeCreatorAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f3f14d53953d1665d111b4bbdab64634a514ee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResumeCreatorAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResumeCreatorAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

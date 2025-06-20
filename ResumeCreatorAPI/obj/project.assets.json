@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\ResumeCreatorAPI.csproj",
+      "projectUniqueName": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\ResumeCreatorAPI.csproj",
       "projectName": "ResumeCreatorAPI",
-      "projectPath": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\ResumeCreatorAPI.csproj",
+      "projectPath": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\ResumeCreatorAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\Resume_Build\\ResumeCreatorBE\\ResumeCreatorAPI\\obj\\",
+      "outputPath": "E:\\Resume_Build\\ResumeCreator\\resume-creator-fe\\ResumeCreatorAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

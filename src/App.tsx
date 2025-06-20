@@ -1,4 +1,5 @@
 
+import Addinfo from './pages/auth/Addinfo';
 import Login from './pages/auth/login/Login';
 import Register from './pages/auth/register/Register';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -8,9 +9,10 @@ function App() {
     <>
      <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" replace />} />
+        {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}
         <Route path="/login" element={<Login onLogin={() => {}} />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/" element={<Addinfo/>}/>
       </Routes>
     </Router>
     </>
